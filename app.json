@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Kainan: Filipino Meals",
+    "slug": "kainan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/kainan-icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alecs.kainan",
+      "userInterfaceStyle": "dark"
+    },
+    "android": {
+      "package": "com.alecs.kainan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/kainan-icon.png",
+        "backgroundColor": "#171512"
+      }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f36de729-ccb9-44f2-b336-3a8b30e9eb56"
+      }
+    },
+    "owner": "agent-nau"
+  }
+}
