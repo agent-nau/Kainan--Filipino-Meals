@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211F1B"/>
+      <stop offset="1" stop-color="#12110F"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="80" y1="30" x2="560" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#91C96E" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#91C96E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pot" x1="180" y1="152" x2="392" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7D981"/>
+      <stop offset="1" stop-color="#7EBA5D"/>
+    </linearGradient>
+    <filter id="shadow" x="123" y="106" width="335" height="285" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="440" rx="32" fill="url(#background)"/>
+  <circle cx="276" cy="220" r="205" fill="url(#glow)"/>
+  <circle cx="274" cy="220" r="150" stroke="#F4EEE7" stroke-opacity=".08" stroke-width="1.5"/>
+  <circle cx="274" cy="220" r="128" stroke="#F4EEE7" stroke-opacity=".06" stroke-width="1.5"/>
+  <path d="M143 284C166 269 174 255 180 229C206 251 210 272 202 292C220 274 230 251 225 220C263 246 272 277 258 306C282 285 294 255 287 226C325 254 339 285 328 315C351 299 363 277 365 250C397 279 402 315 383 342H174C157 326 147 306 143 284Z" fill="#91C96E" fill-opacity=".09"/>
+  <ellipse cx="288" cy="355" rx="136" ry="17" fill="#000" fill-opacity=".4" filter="url(#shadow)"/>
+  <path d="M232 168L228 150C225 136 233 123 248 119L265 115C282 111 297 121 301 137L307 150L320 147" stroke="url(#pot)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M164 184L389 130" stroke="url(#pot)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M142 220C142 212.3 148.3 206 156 206H396C403.7 206 410 212.3 410 220C410 227.7 403.7 234 396 234H389V313C389 341.7 365.7 365 337 365H215C186.3 365 163 341.7 163 313V234H156C148.3 234 142 227.7 142 220Z" fill="url(#pot)"/>
+  <path d="M192 234H360V313C360 325.7 349.7 336 337 336H215C202.3 336 192 325.7 192 313V234Z" fill="#211F1B"/>
+  <path d="M192 234H360" stroke="#211F1B" stroke-width="2" stroke-opacity=".3"/>
+  <circle cx="1052" cy="93" r="112" fill="#91C96E" fill-opacity=".04"/>
+  <circle cx="1080" cy="370" r="150" fill="#E69B58" fill-opacity=".035"/>
+  <path d="M525 98V342" stroke="#91C96E" stroke-opacity=".48" stroke-width="3"/>
+  <rect x="578" y="110" width="252" height="36" rx="18" fill="#91C96E" fill-opacity=".22"/>
+  <circle cx="599" cy="128" r="5" fill="#A7D981"/>
+  <text x="615" y="134" fill="#C5E5AE" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">A TASTE OF HOME</text>
+  <text x="574" y="224" fill="#F4EEE7" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="5">KAINAN</text>
+  <text x="579" y="270" fill="#F4EEE7" fill-opacity=".78" font-family="Arial, Helvetica, sans-serif" font-size="23">Filipino meals, made for your week.</text>
+  <path d="M580 310H621" stroke="#91C96E" stroke-width="4" stroke-linecap="round"/>
+  <text x="637" y="317" fill="#F4EEE7" fill-opacity=".56" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing=".5">UK  /  PHILIPPINES  /  YOUR TABLE</text>
+</svg>
